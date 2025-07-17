@@ -50,27 +50,27 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-makeup-cream">
+    <div className="min-h-screen bg-makeup-warm-cream">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-makeup-cream via-makeup-peach to-makeup-rose">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-makeup-cream via-makeup-soft-beige to-makeup-warm-beige">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto animate-fade-in">
-            <h1 className="font-montserrat text-5xl md:text-7xl font-bold text-makeup-burgundy mb-6">
+            <h1 className="font-dancing-script text-6xl md:text-8xl font-bold text-makeup-lipstick-red mb-6">
               Анна Романова
             </h1>
-            <p className="font-montserrat text-xl md:text-2xl text-makeup-burgundy/80 mb-4 italic">
+            <p className="font-dancing-script text-2xl md:text-3xl text-makeup-lipstick-red/80 mb-4 italic">
               Визажист
             </p>
-            <p className="font-open-sans text-lg md:text-xl text-makeup-burgundy/70 mb-8 max-w-2xl mx-auto">
+            <p className="font-open-sans text-lg md:text-xl text-makeup-deep-red/70 mb-8 max-w-2xl mx-auto">
               Создаю безупречные образы для самых важных моментов вашей жизни. 
               Специализируюсь на свадебном макияже с 7-летним опытом.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-makeup-coral hover:bg-makeup-burgundy text-white px-8 py-3 text-lg">
+              <Button size="lg" className="bg-makeup-lipstick-red hover:bg-makeup-deep-red text-white px-8 py-3 text-lg">
                 <Icon name="Calendar" className="mr-2 h-5 w-5" />
                 Записаться на консультацию
               </Button>
-              <Button variant="outline" size="lg" className="border-makeup-coral text-makeup-coral hover:bg-makeup-coral hover:text-white px-8 py-3 text-lg">
+              <Button variant="outline" size="lg" className="border-makeup-lipstick-red text-makeup-lipstick-red hover:bg-makeup-lipstick-red hover:text-white px-8 py-3 text-lg">
                 <Icon name="MessageCircle" className="mr-2 h-5 w-5" />
                 Обсудить детали
               </Button>
@@ -78,7 +78,7 @@ const Index = () => {
           </div>
         </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <Icon name="ChevronDown" className="h-8 w-8 text-makeup-burgundy/50" />
+          <Icon name="ChevronDown" className="h-8 w-8 text-makeup-deep-red/50" />
         </div>
       </section>
 
@@ -86,7 +86,7 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-makeup-burgundy mb-8">
+            <h2 className="font-dancing-script text-5xl md:text-6xl font-bold text-makeup-lipstick-red mb-8">
               О себе
             </h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -100,19 +100,19 @@ const Index = () => {
                   в котором вы будете чувствовать себя уверенно и комфортно.
                 </p>
                 <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-                  <Badge variant="secondary" className="bg-makeup-rose text-makeup-burgundy">
+                  <Badge variant="secondary" className="bg-makeup-beige text-makeup-deep-red">
                     7 лет опыта
                   </Badge>
-                  <Badge variant="secondary" className="bg-makeup-peach text-makeup-burgundy">
+                  <Badge variant="secondary" className="bg-makeup-soft-beige text-makeup-deep-red">
                     200+ невест
                   </Badge>
-                  <Badge variant="secondary" className="bg-makeup-blush text-makeup-burgundy">
+                  <Badge variant="secondary" className="bg-makeup-warm-beige text-makeup-deep-red">
                     Профессиональная косметика
                   </Badge>
                 </div>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-makeup-rose/20 rounded-2xl overflow-hidden">
+                <div className="w-full h-96 bg-makeup-beige/20 rounded-2xl overflow-hidden">
                   <img 
                     src="/img/766b8916-7ae3-40e7-8fa7-c7e485eaeabb.jpg" 
                     alt="Анна Романова - Визажист"
@@ -129,7 +129,7 @@ const Index = () => {
       <section className="py-20 bg-makeup-cream/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-makeup-burgundy mb-4">
+            <h2 className="font-dancing-script text-5xl md:text-6xl font-bold text-makeup-lipstick-red mb-4">
               Портфолио
             </h2>
             <p className="font-open-sans text-lg text-gray-700 max-w-2xl mx-auto">
@@ -146,11 +146,11 @@ const Index = () => {
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <div className="absolute inset-0 bg-makeup-burgundy/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-makeup-deep-red/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
                 </CardHeader>
                 <CardContent className="p-6">
-                  <CardTitle className="font-montserrat text-xl text-makeup-burgundy mb-2">
+                  <CardTitle className="font-dancing-script text-2xl text-makeup-lipstick-red mb-2">
                     {item.title}
                   </CardTitle>
                   <CardDescription className="font-open-sans text-gray-600">
@@ -167,7 +167,7 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-makeup-burgundy mb-4">
+            <h2 className="font-dancing-script text-5xl md:text-6xl font-bold text-makeup-lipstick-red mb-4">
               Услуги и цены
             </h2>
             <p className="font-open-sans text-lg text-gray-700 max-w-2xl mx-auto">
@@ -178,7 +178,7 @@ const Index = () => {
             {services.map((service, index) => (
               <Card key={index} className="relative hover:shadow-xl transition-all duration-300 animate-fade-in">
                 <CardHeader>
-                  <CardTitle className="font-montserrat text-2xl text-makeup-burgundy">
+                  <CardTitle className="font-dancing-script text-3xl text-makeup-lipstick-red">
                     {service.title}
                   </CardTitle>
                   <CardDescription className="font-open-sans text-gray-600">
@@ -187,22 +187,22 @@ const Index = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center justify-between">
-                    <span className="font-montserrat text-3xl font-bold text-makeup-coral">
+                    <span className="font-dancing-script text-4xl font-bold text-makeup-lipstick-red">
                       {service.price}
                     </span>
-                    <Badge variant="outline" className="border-makeup-coral text-makeup-coral">
+                    <Badge variant="outline" className="border-makeup-lipstick-red text-makeup-lipstick-red">
                       {service.duration}
                     </Badge>
                   </div>
                   <ul className="space-y-2">
                     {service.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center font-open-sans text-sm text-gray-600">
-                        <Icon name="Check" className="h-4 w-4 text-makeup-coral mr-2 flex-shrink-0" />
+                        <Icon name="Check" className="h-4 w-4 text-makeup-lipstick-red mr-2 flex-shrink-0" />
                         {feature}
                       </li>
                     ))}
                   </ul>
-                  <Button className="w-full bg-makeup-coral hover:bg-makeup-burgundy text-white mt-4">
+                  <Button className="w-full bg-makeup-lipstick-red hover:bg-makeup-deep-red text-white mt-4">
                     Выбрать услугу
                   </Button>
                 </CardContent>
@@ -213,10 +213,10 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-makeup-cream/30">
+      <section className="py-20 bg-makeup-soft-beige/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-montserrat text-4xl md:text-5xl font-bold text-makeup-burgundy mb-8">
+            <h2 className="font-dancing-script text-5xl md:text-6xl font-bold text-makeup-lipstick-red mb-8">
               Контакты
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
@@ -226,7 +226,7 @@ const Index = () => {
                     <Icon name="Phone" className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-montserrat text-lg font-semibold text-makeup-burgundy">Телефон</h3>
+                    <h3 className="font-dancing-script text-xl font-semibold text-makeup-lipstick-red">Телефон</h3>
                     <p className="font-open-sans text-gray-700">+7 (999) 123-45-67</p>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ const Index = () => {
                     <Icon name="MessageCircle" className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-montserrat text-lg font-semibold text-makeup-burgundy">Telegram</h3>
+                    <h3 className="font-dancing-script text-xl font-semibold text-makeup-lipstick-red">Telegram</h3>
                     <p className="font-open-sans text-gray-700">@anna_makeup</p>
                   </div>
                 </div>
@@ -244,7 +244,7 @@ const Index = () => {
                     <Icon name="Instagram" className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-montserrat text-lg font-semibold text-makeup-burgundy">Instagram</h3>
+                    <h3 className="font-dancing-script text-xl font-semibold text-makeup-lipstick-red">Instagram</h3>
                     <p className="font-open-sans text-gray-700">@anna.makeup.artist</p>
                   </div>
                 </div>
@@ -253,20 +253,20 @@ const Index = () => {
                     <Icon name="MapPin" className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-montserrat text-lg font-semibold text-makeup-burgundy">Локация</h3>
+                    <h3 className="font-dancing-script text-xl font-semibold text-makeup-lipstick-red">Локация</h3>
                     <p className="font-open-sans text-gray-700">Москва, выезд по городу</p>
                   </div>
                 </div>
               </div>
               <div className="space-y-6">
                 <Card className="p-6">
-                  <h3 className="font-montserrat text-2xl font-bold text-makeup-burgundy mb-4">
+                  <h3 className="font-dancing-script text-3xl font-bold text-makeup-lipstick-red mb-4">
                     Записаться на консультацию
                   </h3>
                   <p className="font-open-sans text-gray-700 mb-6">
                     Обсудим детали вашего образа и подберем идеальный макияж для вашего особого дня
                   </p>
-                  <Button className="w-full bg-makeup-coral hover:bg-makeup-burgundy text-white">
+                  <Button className="w-full bg-makeup-lipstick-red hover:bg-makeup-deep-red text-white">
                     <Icon name="Calendar" className="mr-2 h-5 w-5" />
                     Записаться сейчас
                   </Button>
@@ -278,26 +278,26 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-makeup-burgundy text-white py-12">
+      <footer className="bg-makeup-deep-red text-white py-12">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h3 className="font-montserrat text-2xl font-bold mb-4">Анна Романова</h3>
-            <p className="font-open-sans text-makeup-champagne mb-6">
+            <h3 className="font-dancing-script text-3xl font-bold mb-4">Анна Романова</h3>
+            <p className="font-open-sans text-makeup-nude mb-6">
               Визажист • Свадебный макияж • Москва
             </p>
             <div className="flex justify-center space-x-6">
-              <Button variant="ghost" size="sm" className="text-white hover:text-makeup-rose">
+              <Button variant="ghost" size="sm" className="text-white hover:text-makeup-beige">
                 <Icon name="Instagram" className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:text-makeup-rose">
+              <Button variant="ghost" size="sm" className="text-white hover:text-makeup-beige">
                 <Icon name="MessageCircle" className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:text-makeup-rose">
+              <Button variant="ghost" size="sm" className="text-white hover:text-makeup-beige">
                 <Icon name="Phone" className="h-5 w-5" />
               </Button>
             </div>
-            <div className="mt-8 pt-8 border-t border-makeup-rose/20">
-              <p className="font-open-sans text-sm text-makeup-champagne">
+            <div className="mt-8 pt-8 border-t border-makeup-beige/20">
+              <p className="font-open-sans text-sm text-makeup-nude">
                 © 2024 Анна Романова. Все права защищены.
               </p>
             </div>

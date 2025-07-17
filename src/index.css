@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,24 +15,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 354 100% 69%;
+    --primary: 0 69% 58%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 338 100% 89%;
+    --secondary: 38 55% 92%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 24 100% 97%;
+    --muted: 38 55% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 354 100% 69%;
+    --accent: 0 69% 58%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 338 100% 89%;
-    --input: 338 100% 89%;
-    --ring: 354 100% 69%;
+    --border: 38 55% 92%;
+    --input: 38 55% 92%;
+    --ring: 0 69% 58%;
 
     --radius: 0.5rem;
 

@@ -64,16 +64,16 @@ export default {
 				},
 				// Makeup artist color palette
 				makeup: {
-					rose: '#FFB3BA',
-					pink: '#FFB3BA', 
-					peach: '#FFDFBA',
-					coral: '#FF6B6B',
-					blush: '#FDE1D3',
+					beige: '#F5E6D3',
+					'soft-beige': '#F9F1E9',
+					'warm-beige': '#F0E2D1',
+					'lipstick-red': '#DC143C',
+					'deep-red': '#B22222',
 					cream: '#FFF8F0',
-					burgundy: '#8B0000',
-					gold: '#FFD700',
-					nude: '#F5E6D3',
+					nude: '#E8D5C1',
 					champagne: '#F7E7CE',
+					'soft-pink': '#F8E8E8',
+					'warm-cream': '#FFEFD5',
 				}
 			},
 			borderRadius: {
@@ -115,7 +115,8 @@ export default {
 			},
 			fontFamily: {
 				'montserrat': ['Montserrat', 'sans-serif'],
-				'open-sans': ['Open Sans', 'sans-serif']
+				'open-sans': ['Open Sans', 'sans-serif'],
+				'dancing-script': ['Dancing Script', 'cursive']
 			}
 		}
 	},
